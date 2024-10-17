@@ -28,6 +28,32 @@ code {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /*how many columns the grid should have. auto-fit automatically resizes no. of columns based on column size. A column cannot be smaller than 250px and it cannot be bigger than one fractional unit. fractional unit means whatever space is available*/
 }
 
+.note.new{
+  background-color: #67d7cc;
+}
+
+textarea{
+  border: none;
+  resize: none;
+  background-color: #67d7cc;
+}
+
+textarea:focus{
+  outline: none;
+}
+
+.save{
+  background-color: #e1e1e1;
+  border: none;
+  border-radius: 15px;
+  padding:5px 10px 5px 10px;
+}
+
+.save:hover{
+  background-color: #ededed;
+  cursor:pointer;
+}
+
 .note{
   background-color: #fef68a;
   border-radius: 10px;
