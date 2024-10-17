@@ -22,3 +22,9 @@ code {
   flex-direction: column;
   justify-content: space-between; /*first item positioned at the start of the container and last item positioned at the end of the container*/
 }
+
+.note-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
