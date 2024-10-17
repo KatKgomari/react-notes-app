@@ -12,6 +12,15 @@ code {
     monospace;
 }
 
+.container{
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
+
 /*Using css grid to position and resize the notes to make everything responsive*/
 .notes-list{
   display:grid;
